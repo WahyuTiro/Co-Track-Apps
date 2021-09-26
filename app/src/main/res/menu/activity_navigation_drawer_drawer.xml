@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/all_user"
+            android:icon="@drawable/ic_menu_users"
+            android:title="Users" />
+        <item
+            android:id="@+id/subscribed_user"
+            android:icon="@drawable/ic_menu_subscribeduser"
+            android:title="Subscribed User" />
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_menu_profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_menu_about"
+            android:title="About" />
+    </group>
+</menu>
